@@ -1,0 +1,6 @@
+For my symbol table I decided to use the same DLB that was used when executing the -find argument.
+The first time a password is searched the allPasswords.txt file is read through and the DLB is
+generated. All subsequent passwords are searched for through the DLB. The DLB is has an efficient 
+lookup time for the passwords, since every password is guarenteed to have some matching prefixes.
+Besides that, since I already had the logic implemented to create a DLB, it made it easier to
+just reuse that logic when looking through the file.
